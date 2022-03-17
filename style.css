@@ -20,7 +20,12 @@ body {
 	justify-content: flex-start;
 	min-height: 100vh;
 	color: #FFF;
-	background-color: var(--dark);
+	/*background-color: var(--dark);*/
+	background: linear-gradient(
+    90deg,
+    rgb(16, 80, 255) 0%,
+    rgb(100, 136, 255) 100%
+	);
 	
 }
 
