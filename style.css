@@ -17,9 +17,11 @@
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	min-height: 100vh;
 	color: #FFF;
 	background-color: var(--dark);
+	
 }
 
 header {
@@ -81,10 +83,20 @@ input, button {
 }
 
 main {
-	flex: 1 1 0%;
+	/*flex: 1 1 0%;
 	max-width: 800px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 520px;
+	min-height: 600px;
+	background: #161a2b;
+	text-align: center;
+	margin: 128px auto;
+	border-radius: 10px;
+	padding-bottom: 32px;
 }
 
 .task-list {
@@ -96,6 +108,7 @@ main {
 	font-weight: 300;
 	color: var(--grey);
 	margin-bottom: 1rem;
+	
 }
 
 #tasks .task {
